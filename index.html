@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>stackshack</title>
+<style>
+  body {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+  }
+  .container {
+    background-image: url('arka_plan.gif');
+    background-color: rgb(255, 204, 25);
+    background-size: cover;
+    background-position: center;
+    padding: 30px;
+    border: 2px solid black;
+    color: black;
+    max-width: 700px;
+    border-radius: 30px;
+    width: 100%;
+    text-align: center;
+    position: relative; /* Ekledik */
+  }
+  .gif-container {
+   display: flex;
+    justify-content: space-between;
+    position: absolute;
+    bottom: 10px;
+    left: 430px;
+    width: 30px;
+    height: 50px;
+    max-height: 70px;
+ 
+  }
+  h1 {
+    color: black;
+  }
+  h3 {
+    color: black;
+    margin-top: 5px;
+  }
+  form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+  }
+  label {
+    margin-top: 1px;
+  }
+  input {
+    padding: 15px;
+    margin-top: 5px;
+  }
+  button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: black;
+    color: rgb(255, 204, 25);
+    border: none;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+  <div class="container">
+      
+       <div class="gif-container">
+      <img src="https://media1.tenor.com/images/e9e80ba6599f5f0f6c12c2ee5f5dac20/tenor.gif?itemid=14446712">
+    </div>
+      
+    <h1>Yenliklərdən xəbərdar olmaq üçün abunə olun</h1>
+    <h3>Narahat olmayın, spam göndərilmir</h3>
+
+    <form>
+        
+      <label for="ad">Ad</label>
+      <input type="text" id="ad" name="ad">
+      <label for="telefon">Telefon</label>
+      <input type="tel" id="telefon" name="telefon">
+      <label for="mail">Mail</label>
+      <input type="email" id="mail" name="mail">
+      <label for="date">Doğum tarixi</label>
+      <input type="date" id="date" name="dogumTarixi">
+      <button type="submit">Abunə ol</button>
+    </form>
+   
+  </div>
+</body>
+</html>
